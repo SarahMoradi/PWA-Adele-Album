@@ -1,0 +1,15 @@
+{
+  "short_name": "ADELE 21 ALBUM",
+  "name": "ADELE",
+  "icons": [
+    {
+      "src": "/images/logo.png",
+      "type": "image/png",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
