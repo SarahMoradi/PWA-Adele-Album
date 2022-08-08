@@ -18,9 +18,11 @@
 }
 .song-list {
   margin-top: 10px;
-  margin-bottom: 10px;
-  height: 52vh;
+  padding: 2rem 0;
+  height: 55vh;
   overflow: auto;
+  display: flex;
+  align-items: center;
 }
 .logo-container {
   margin: 0 10px 0 0;

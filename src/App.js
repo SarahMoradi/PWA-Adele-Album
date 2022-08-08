@@ -53,18 +53,26 @@ const App = () => {
         <img src='/cover.png' alt='cover' />
       </div>
       <div className='song-list'>
-        <ul>
+        <ul style={{ paddingLeft: '1rem' }}>
           {songsdata.map((song) => {
             return (
-              <li key={song.id} onClick={() => chooseSong(song.title)}>
+              <li
+                key={song.id}
+                onClick={() => chooseSong(song.title)}
+                style={{ listStyleType: 'none' }}
+              >
                 <div className='song-container'>
                   <div className='info-container'>
                     <div className='logo-container'>
                       <BsFileEarmarkMusicFill size={30} />
                     </div>
                     <div>
-                      <p>{song.title}</p>
-                      <p style={{ fontSize: '13px' }}>{song.artist}</p>
+                      <p style={{ margin: ' 0', padding: '0' }}>{song.title}</p>
+                      <p
+                        style={{ fontSize: '13px', margin: ' 0', padding: '0' }}
+                      >
+                        {song.artist}
+                      </p>
                     </div>
                   </div>
                   <div></div>
